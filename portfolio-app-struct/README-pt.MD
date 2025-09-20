@@ -26,3 +26,13 @@ Logo, essas imagens, não contem as lógicas de negócios, por ética.
 
 Esse projeto, foi criado para fins de assemelhar a platáformas como **99Freelas**, **Workana**, entre outras.
 Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenharia de software, como... **Layered Architeture**, **Separation of Concerns (SoC)** e **Modelling Patterns**. A construção foi feita em **Java**, usando o Quarkus como **Framework**, o **MongoDB** para armazenamento dos dados, de forma leve e facilitando a escabilidade.
+
+---
+
+# APIs Rest
+
+---
+### 📦 api/
+- Responsável pela integração com o **gateway da PagSeguro**
+- Centraliza as chamadas externas, mantendo a separação de responsabilidade
+![alt text](image.png)
