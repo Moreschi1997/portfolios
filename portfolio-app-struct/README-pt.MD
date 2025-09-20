@@ -35,4 +35,4 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 ### 📦 api/
 - Responsável pela integração com o **gateway da PagSeguro**
 - Centraliza as chamadas externas, mantendo a separação de responsabilidade
-![Gateway-pag](portfolio-app-struct/image/image.png)
+![alt text](image.png)
