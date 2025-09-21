@@ -32,7 +32,35 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 # APIs Rest
 
 ---
-### 📦 api/
-- Responsável pela integração com o **gateway da PagSeguro**
-- Centraliza as chamadas externas, mantendo a separação de responsabilidade
-![Gateway](./image/image.png)
+
+### 📦 api/  
+- Responsável pela integração com o **gateway da PagSeguro**.  
+- Centraliza as chamadas externas, mantendo a separação de responsabilidades.  
+
+---
+
+#### 🔗 Integração com o Gateway  
+![Gateway-PagSeguro](./image/gateway.png)  
+*Fluxo da integração com o PagSeguro*  
+
+#### 🧪 Testes da API  
+![Testes-API](./image/testesapi.jpeg)  
+*Execução dos testes da API*  
+
+#### ✅ Resposta 200 OK  
+![API-ok](./image/200ok-gateway.jpeg)  
+*API respondendo conforme esperado* 
+
+---
+
+### 🔐 auth/  
+
+- Responsável pela **autenticação**, **login** e **registro** de usuários.  
+- Implementado com **tokenização JWT**, garantindo segurança e separação clara de responsabilidades na lógica.  
+
+---
+
+#### 🔧 Lógica implementada  
+![auth-login-registro](./image/auth.png)  
+*Fluxo de autenticação com login, registro e geração de token JWT* 
+
