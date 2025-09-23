@@ -33,7 +33,7 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 ---
 
-### 📦 api/  
+## 📦 api/  
 - Responsável pela integração com o **gateway da PagSeguro**.  
 - Centraliza as chamadas externas, mantendo a separação de responsabilidades.  
 
@@ -47,20 +47,36 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 ![Testes-API](./image/testesapi.jpeg)  
 *Execução dos testes da API*  
 
-#### ✅ Resposta 200 OK  
-![API-ok](./image/200ok-gateway.jpeg)  
+#### ✅ Resposta 200 OK para Gateway  
+![API-ok-Gateway](./image/200ok-gateway.jpeg)  
 *API respondendo conforme esperado* 
 
 ---
 
-### 🔐 auth/  
+## 🔐 auth/  
 
 - Responsável pela **autenticação**, **login** e **registro** de usuários.  
 - Implementado com **tokenização JWT**, garantindo segurança e separação clara de responsabilidades na lógica.  
 
 ---
 
-#### 🔧 Lógica implementada  
+##### 🔧 Lógica implementada  
 ![auth-login-registro](./image/auth.png)  
 *Fluxo de autenticação com login, registro e geração de token JWT* 
 
+#### ✅ Resposta 200 OK para Cliente
+![POST-Cliente](post-cliente.png)
+*API auth-cliente responde conforme o esperado*
+
+---
+
+## ⚙️ config/
+
+- Responsável pelas **logs customizáveis**, permitindo injeção e chamadas específicas para personalização.  
+- Também responsável pela configuração de **CORS**, garantindo comunicação entre **backend** e **frontend** durante os testes utilitários.  
+
+---
+
+#### 📸 Representação dos arquivos de configuração (CORS + Logs)
+![CORS-LOGS](Logs-Cors.png)
+*Arquivos separados para uma estrutura limpa e organizada*
