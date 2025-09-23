@@ -41,15 +41,15 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 #### 🔗 Integração com o Gateway  
 ![Gateway-PagSeguro](./image/gateway.png)  
-*Fluxo da integração com o PagSeguro*  
+- *Fluxo da integração com o PagSeguro*  
 
 #### 🧪 Testes da API  
 ![Testes-API](./image/testesapi.jpeg)  
-*Execução dos testes da API*  
+- *Execução dos testes da API*  
 
 #### ✅ Resposta 200 OK para Gateway  
 ![API-ok-Gateway](./image/200ok-gateway.jpeg)  
-*API respondendo conforme esperado* 
+- *API respondendo conforme esperado* 
 
 ---
 
@@ -62,11 +62,11 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 ##### 🔧 Lógica implementada  
 ![auth-login-registro](./image/auth.png)  
-*Fluxo de autenticação com login, registro e geração de token JWT* 
+- *Fluxo de autenticação com login, registro e geração de token JWT* 
 
 #### ✅ Resposta 200 OK para Cliente
 ![POST-Cliente](./image/post-cliente.png)
-*API auth-cliente responde conforme o esperado*
+- *API auth-cliente responde conforme o esperado*
 
 ---
 
@@ -79,4 +79,4 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 #### 📸 Representação dos arquivos de configuração (CORS + Logs)
 ![LOGS-CORS](./image/Log-Cors.png)
-*Arquivos separados para uma estrutura limpa e organizada*
+- *Arquivos separados para uma estrutura limpa e organizada*
