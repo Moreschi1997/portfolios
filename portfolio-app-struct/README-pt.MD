@@ -65,7 +65,7 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 *Fluxo de autenticação com login, registro e geração de token JWT* 
 
 #### ✅ Resposta 200 OK para Cliente
-![POST-Cliente](post-cliente.png)
+![POST-Cliente](./image/post-cliente.png)
 *API auth-cliente responde conforme o esperado*
 
 ---
@@ -78,5 +78,5 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 ---
 
 #### 📸 Representação dos arquivos de configuração (CORS + Logs)
-![CORS-LOGS](Logs-Cors.png)
+![CORS-LOGS](./image/Logs-Cors.png)
 *Arquivos separados para uma estrutura limpa e organizada*
