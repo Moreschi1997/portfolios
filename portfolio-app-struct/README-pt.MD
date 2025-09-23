@@ -78,5 +78,5 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 ---
 
 #### 📸 Representação dos arquivos de configuração (CORS + Logs)
-![CORS-LOGS](./image/Logs-Cors.png)
+![LOGS-CORS](./image/Log-Cors.png)
 *Arquivos separados para uma estrutura limpa e organizada*
