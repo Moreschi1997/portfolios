@@ -64,7 +64,7 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 ![auth-login-registro](./image/auth.png)  
 - *Fluxo de autenticação com login, registro e geração de token JWT* 
 
-#### ✅ Resposta 200 OK para Cliente
+#### ✅ Resposta 200 OK para Cliente/Profissional
 ![POST-Cliente](./image/post-cliente.png)
 - *API auth-cliente responde conforme o esperado*
 
@@ -80,3 +80,21 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 #### 📸 Representação dos arquivos de configuração (CORS + Logs)
 ![LOGS-CORS](./image/Log-Cors.png)
 - *Arquivos separados para uma estrutura limpa e organizada*
+
+---
+
+## 📨 dto/
+
+- Responsável pela **transferência de dados** através dos **Data Transfer Objects (DTOs)**.  
+- Os **DTOs** organizam a estrutura da aplicação, tornando os dados mais dinâmicos e reutilizáveis.  
+- Também contribuem para uma **arquitetura mais limpa e robusta**, facilitando o crescimento e a escalabilidade do sistema. 
+
+---
+
+#### 📁 Arquivos DTOs  
+
+- *Arquivos **DTOs** organizados de forma separada e estruturada, garantindo boa organização e uma escalabilidade eficaz.* 
+
+![DTOs1](./image/DTOs1.png)
+
+![DTOs2](./image/DTOs2.png)
