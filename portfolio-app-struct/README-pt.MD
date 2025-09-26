@@ -108,7 +108,7 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 ####  📁 Arquivos Utils
 
-- *Arquivos **Utils** organizados, para uma melhor **reutilidade das lógicas de negócios**. 
+- *Arquivos **Utils** organizados, para uma melhor **reutilização das lógicas de negócios**. 
 
 ![Utils1](./image/utils1.png)
 
