@@ -98,3 +98,18 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 ![DTOs1](./image/DTOs1.png)
 
 ![DTOs2](./image/DTOs2.png)
+
+---
+
+## 🛠️ util/  
+
+- Responsável por centralizar as **lógicas reutilizáveis**.  
+- Inclui implementações como **validação de dados**, **geração de chave JWT**, **criação de hash**, entre outras funções de suporte.
+
+####  📁 Arquivos Utils
+
+- *Arquivos **Utils** organizados, para uma melhor **reutilidade das lógicas de negócios**. 
+
+![Utils1](./image/utils1.png)
+
+![Utils2](./image/utils2.png)
