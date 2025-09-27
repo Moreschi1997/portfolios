@@ -131,9 +131,14 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 ####  📁 Arquivos Service
 
-- *Arquivos **Service** organizados e estruturados e manter a lógica limpa e eficaz.*
-- *Caso fosse adicionada a **responsabidade do Controller**, a separação continuaria garantindo clareza e eficiência.* 
+- *Arquivos **Service** organizados e estruturados para manter a lógica limpa e eficaz.*
+- *Caso fosse adicionada a **responsabilidade do Controller**, a separação continuaria garantindo clareza e eficiência.* 
 
 ![Service-1](./image/Service1.png)
 
 ![Service-2](./image/Service2.png)
+
+- *Print de uma das lógicas voltando **200 Ok**.*
+
+![POST-SERVICE](./image/postservice.png)
+
