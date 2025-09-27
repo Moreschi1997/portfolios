@@ -1,6 +1,12 @@
 
 ---
 
+# 📑 Indíces
+
+- [⚠️ Informações importantes ⚠️](#️-informações-importantes-️)
+- [🚀 Tecnologias utilizadas 🚀](#-tecnologias-utilizadas)
+    - [📖 Falando um pouco sobre o projeto 📖](#-falando-um-pouco-sobre-o-projeto)
+---
 # ⚠️ Informações importantes ⚠️
 
 ```
@@ -13,7 +19,7 @@ Logo, essas imagens, não contem as lógicas de negócios, por ética.
 ```
 ---
 
-# Tecnologias utilizadas
+# 🚀 Tecnologias utilizadas
 
 - **Java** ➡︎ *Linguagem robusta, OOP, com foco em aplicações mais seguras e alto desempenho.*
 - **Quarkus** ➡︎ *Framework Java moderno, otimizado para microsserviços e aplicações em nuvem, com foco em lógica centralizada e criação de APIs REST seguras.*
@@ -22,7 +28,7 @@ Logo, essas imagens, não contem as lógicas de negócios, por ética.
 
 ---
 
-## Falando um pouco sobre o projeto
+## 📖 Falando um pouco sobre o projeto
 
 Esse projeto, foi criado para fins de assemelhar a platáformas como **99Freelas**, **Workana**, entre outras.
 Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenharia de software, como... **Layered Architeture**, **Separation of Concerns (SoC)** e **Modelling Patterns**. A construção foi feita em **Java**, usando o Quarkus como **Framework**, o **MongoDB** para armazenamento dos dados, de forma leve e facilitando a escabilidade.
@@ -95,9 +101,9 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 - *Arquivos **DTOs** organizados de forma separada e estruturada, garantindo boa organização e uma escalabilidade eficaz.* 
 
-![DTOs1](./image/DTOs1.png)
+![DTOs-1](./image/DTOs1.png)
 
-![DTOs2](./image/DTOs2.png)
+![DTOs-2](./image/DTOs2.png)
 
 ---
 
@@ -110,15 +116,24 @@ Foram 3 meses de desenvolvimento do backend, aplicando boas práticas de engenha
 
 - *Arquivos **Utils** organizados, para uma melhor **reutilização das lógicas de negócios**.* 
 
-![Utils1](./image/utils1.png)
+![Utils-1](./image/utils1.png)
 
-![Utils2](./image/utils2.png)
+![Utils-2](./image/utils2.png)
 
-![Utils3](./image/utils3.png)
+![Utils-3](./image/utils3.png)
 
 ---
 
 ## 🧪 service/  
 
 - Responsável por receber as **lógicas criadas na pasta util/** e distribuí-las conforme suas entidades ou classes.  
-- Possibilita um melhor **fluxo de execução** e garante maior **escalabilidade** da aplicação.  
+- Possibilita um melhor **fluxo de execução** e garante maior **escalabilidade** da aplicação.
+
+####  📁 Arquivos Service
+
+- *Arquivos **Service** organizados e estruturados e manter a lógica limpa e eficaz.*
+- *Caso fosse adicionada a **responsabidade do Controller**, a separação continuaria garantindo clareza e eficiência.* 
+
+![Service-1](./image/Service1.png)
+
+![Service-2](./image/Service2.png)
