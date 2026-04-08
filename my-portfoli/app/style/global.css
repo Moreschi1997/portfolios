@@ -1,0 +1,854 @@
+@import "tailwindcss";
+
+.main-wrapper 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 40px;
+    background: rgb(20, 20, 20);
+}
+
+/************************************************** Mobile mode ****************************************************/
+
+.mobile .content-layout-home-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 40px;
+}
+
+.mobile .content-layout-experience-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 40px;
+}
+
+.mobile .text-effect-reflection 
+{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 20s linear infinite;
+}
+
+.mobile .fede-in-text 
+{
+    color: #0059ff;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+/* glass effect to text */
+.mobile .glass-effect {
+    width: 90%; 
+    max-width: 600px;
+    
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* glass effect to outhers components */
+
+.mobile .glass-effect-outhers {
+    width: 96%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Photo-perfil */
+.mobile .photo-container 
+{
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Container-horizontal */
+.mobile .cert-scroll-container
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.mobile .marquee-track
+{
+    display: flex;
+    width: max-content; 
+    flex-direction: row;
+    animation: horizontalScroll 30s linear infinite;
+}
+
+.mobile .cert-scroll-item
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 70px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+/* mobile accordion component*/
+.mobile .accordion-item
+{
+    display: grid;
+    width: 95%;
+    gap: 10px;
+}
+
+.mobile .accordion-item-collun
+{
+    display: grid;
+    width: 95%;
+    gap: 10px;
+}
+
+.mobile .accordion-item
+{
+    display: grid;
+    width: 95%;
+    gap: 10px;
+}
+
+/* glass effect to text */
+.mobile .glass-effect {
+    width: 96%; 
+    max-width: 950px;
+    
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 110, 255, 0.212);
+}
+
+/* Effect of block-solid */
+.mobile .block-solid
+{
+    background: rgb(27, 27, 27);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    padding: 2rem;           
+    gap: 20px;                
+    height: auto;             
+    min-height: 100px;
+    box-shadow: 0 10px 30px rgba(0, 110, 255, 0.212);
+}
+/* Other option block-solid */
+.mobile .block-solid-olther
+{
+    background: rgb(27, 27, 27);
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    padding: 2rem;           
+    gap: 20px;                
+    height: auto;             
+    min-height: 100px;
+    box-shadow: 0 10px 30px rgba(0, 110, 255, 0.212);
+}
+
+/* Children of block-solid */
+.experience-header
+{
+    font-size: 1.2rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+/* glass effect to outhers components */
+
+.experience-content.glass-effect-outhers {
+    width: 100%;
+    background: rgba(0, 89, 255, 0.05); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(82, 82, 82, 0.1); 
+    box-shadow: 0 4px 24px rgba(0, 110, 255, 0.212);
+    color: #1a1a1a; 
+}
+
+.mobile .experience-header
+{
+    font-size: 1.2rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+.mobile .contact-accordion-item
+{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 95%;
+    gap: 20px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.mobile .pulsing-phrase {
+  display: inline-block;
+  color: #0059ff;
+  animation: pulse 2s infinite;
+}
+
+/* Color button*/
+
+.mobile .color-button
+{
+    color: rgb(0, 110, 255);
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes horizontalScroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+@keyframes shine {
+    from { background-position: -200% center; }
+    to { background-position: 200% center; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/************************************************ Tablet mode ************************************************/
+
+.tablet .content-layout-home-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 40px;
+}
+
+.tablet .content-layout-experience-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 40px;
+}
+
+.tablet .text-effect-reflection
+{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 20s linear infinite;
+}
+
+.tablet .fede-in-text 
+{
+    color: #0059ff;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+/* glass effect to text */
+.tablet .glass-effect {
+    width: 96%; 
+    max-width: 600px;
+    
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 110, 255, 0.212);
+}
+
+/* glass effect to outhers components */
+
+.tablet .glass-effect-outhers {
+    width: 96%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 110, 255, 0.212);
+}
+
+/* Photo-perfil */
+.tablet .photo-container 
+{
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Container-horizontal */
+.tablet .cert-scroll-container
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.tablet .marquee-track
+{
+    display: flex;
+    width: max-content; 
+    flex-direction: row;
+    animation: horizontalScroll 30s linear infinite;
+}
+
+.tablet .accordion-item
+{
+    display: grid;
+    width: 95%;
+    gap: 10px;
+}
+
+.tablet .accordion-item-collun
+{
+    display: grid;
+    width: 95%;
+    gap: 10px;
+}
+
+/* glass effect to text */
+.tablet .glass-effect {
+    width: 96%; 
+    max-width: 950px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 110, 255, 0.212);
+}
+
+/* Effect of block-solid */
+.tablet .block-solid
+{
+    background: rgb(27, 27, 27);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    padding: 2rem;           
+    gap: 20px;                
+    height: auto;             
+    min-height: 100px;
+    box-shadow: 0 10px 30px rgba(0, 110, 255, 0.212);
+}
+/* Other option block-solid */
+.tablet .block-solid-olther
+{
+    background: rgb(27, 27, 27);
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    padding: 2rem;           
+    gap: 20px;                
+    height: auto;             
+    min-height: 100px;
+    box-shadow: 0 10px 30px rgba(0, 110, 255, 0.212);
+}
+
+/* Children of block-solid */
+.experience-header
+{
+    font-size: 1.2rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+/* glass effect to outhers components */
+
+.experience-content.glass-effect-outhers {
+    width: 100%;
+    background: rgba(0, 89, 255, 0.05); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(82, 82, 82, 0.1); 
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+    color: #1a1a1a; 
+}
+
+.tablet .cert-scroll-item
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 70px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+/* mobile accordion component*/
+.tablet .accordion-item
+{
+    display: grid;
+    width: 95%;
+    gap: 10px;
+}
+
+.tablet .experience-header
+{
+    font-size: 1.2rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+.tablet .contact-accordion-item
+{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 95%;
+    gap: 20px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.tablet .pulsing-phrase {
+  display: inline-block;
+  color: #0059ff;
+  animation: pulse 2s infinite;
+}
+
+/* Color button*/
+
+.tablet .color-button
+{
+    color: rgb(0, 110, 255);
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes horizontalScroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+@keyframes shine {
+    from { background-position: -200% center; }
+    to { background-position: 200% center; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+/************************************************ Desktop mode ************************************************/
+
+.desktop .content-layout-home-page {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;     
+    justify-content: center;
+    gap: 20px;
+    width: 96%;  
+}
+
+.desktop .content-layout-experience-page {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;     
+    justify-content: center;
+    gap: 20px;
+    width: 96%;  
+}
+
+
+
+.desktop .text-effect-reflection
+{
+    display: block;
+    text-align: center;
+    font-size: 2.6rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 20s linear infinite;
+}
+
+.desktop .fede-in-text 
+{
+    color: #0059ff;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+/* glass effect to text */
+.desktop .glass-effect {
+    width: 96%; 
+    max-width: 950px;
+    
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 110, 255, 0.212);
+}
+
+/* Effect of block-solid */
+.desktop .block-solid
+{
+    background: rgb(27, 27, 27);
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    padding: 2rem;           
+    gap: 20px;                
+    height: auto;             
+    min-height: 100px;
+    box-shadow: 0 10px 30px rgba(0, 110, 255, 0.212);
+}
+/* Other option block-solid */
+.desktop .block-solid-olther
+{
+    background: rgb(27, 27, 27);
+    width: 30%;
+    margin-left: 2%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    padding: 2rem;           
+    gap: 20px;                
+    height: auto;             
+    min-height: 100px;
+    box-shadow: 0 10px 30px rgba(0, 110, 255, 0.212);
+}
+
+/* Children of block-solid */
+.experience-header
+{
+    font-size: 1.2rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+/* glass effect to outhers components */
+
+.experience-content.glass-effect-outhers {
+    width: 100%;
+    background: rgba(0, 89, 255, 0.05); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid rgba(82, 82, 82, 0.1); 
+    box-shadow: 0 4px 24px rgba(0, 110, 255, 0.212);
+    color: #1a1a1a; 
+}
+
+/* Photo-perfil */
+.desktop .photo-container 
+{
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    display: flex;
+    height: auto;
+    align-self: flex-start;
+}
+
+/* Container-horizontal */
+.desktop .cert-scroll-container
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.desktop .marquee-track
+{
+    display: flex;
+    width: max-content; 
+    flex-direction: row;
+    animation: horizontalScroll 30s linear infinite;
+}
+
+.desktop .cert-scroll-item
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 70px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    background: linear-gradient(
+        120deg,
+        rgb(0, 89, 255) 0%,
+        #0059ff 45%,
+        white 50%,
+        rgb(0, 89, 255) 55%,
+        rgb(0, 89, 255) 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 10s linear infinite;
+}
+
+/* desktop accordion component*/
+.desktop .accordion-item
+{
+    display: grid;
+    width: 95%;
+    gap: 10px;
+}
+
+.desktop .accordion-item-collun
+{
+    display: flex;
+    width: 95%;
+    gap: 10px;
+}
+
+.desktop .contact-accordion-item
+{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 95%;
+    gap: 20px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.desktop .pulsing-phrase {
+  display: inline-block;
+  color: #0059ff;
+  animation: pulse 2s infinite;
+}
+
+/* Color button*/
+
+.desktop .color-button
+{
+    color: rgb(0, 110, 255);
+}
+
+/* Experince conteiner to father and son */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes horizontalScroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+@keyframes shine {
+    from { background-position: -200% center; }
+    to { background-position: 200% center; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
