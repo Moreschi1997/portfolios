@@ -14,7 +14,7 @@ Hibernate (ORM)
 ## Arquitetura
 
 O projeto segue a separação clássica em camadas:
-
+```
 contabancaria.conta
 ├── ContaApplication.java
 ├── controller/
@@ -38,7 +38,7 @@ contabancaria.conta
     ├── SaldoInsuficienteException.java
     ├── ContaNaoEncontradaException.java
     └── GlobalExceptionHandler.java
-
+```
 ---
 
 ## Decisões de design
