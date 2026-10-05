@@ -3,9 +3,11 @@ package contabancaria.conta.controller;
 import contabancaria.conta.dto.ContaResponseDTO;
 import contabancaria.conta.dto.TransacaoResponseDTO;
 import contabancaria.conta.dto.TransferenciaRequestDTO;
+import contabancaria.conta.dto.ContaRequestDTO;
 import contabancaria.conta.model.Conta;
 import contabancaria.conta.model.Transacao;
 import contabancaria.conta.service.BuscaContaService;
+import contabancaria.conta.service.CriarContaService;
 import contabancaria.conta.service.TransferenciaService;
 import jakarta.validation.Valid;
 
@@ -21,11 +23,14 @@ public class ContaController {
 
     private final BuscaContaService buscaContaService;
     private final TransferenciaService transferenciaService;
+    private final CriarContaService criarContaService;
 
     public ContaController(BuscaContaService buscaContaService,
-                            TransferenciaService transferenciaService) {
+                            TransferenciaService transferenciaService,
+                            CriarContaService criarContaService) {
         this.buscaContaService = buscaContaService;
         this.transferenciaService = transferenciaService;
+        this.criarContaService = criarContaService;
     }
 
     @GetMapping("/{id}")
@@ -46,6 +51,13 @@ public class ContaController {
             transacao.getValor(),
             transacao.getDataHora()
         );
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
+    }
+    @PostMapping("/criar-conta")
+    public ResponseEntity<ContaResponseDTO> criarConta(@Valid @RequestBody ContaRequestDTO dto){
+        
+        Conta criarConta = criarContaService.criarConta(dto.saldoInicial());
+        ContaResponseDTO response = new ContaResponseDTO(criarConta.getId(), criarConta.getSaldo());
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 }
